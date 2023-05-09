@@ -1,0 +1,7 @@
+.idea/
+__pycahce__/
+*.npy
+*.h5
+*.pdf
+*.jpg
+*.png

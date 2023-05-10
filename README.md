@@ -3,6 +3,9 @@
 <p align="justify">
 Hrrformer is a neuro-symbolic self-attention model with linear 𝒪(T) time and space complexity. 23× faster and consumes 24× less memory than Transformer. SOTA performance for even over sequence length T≥100,000. Able to learn with a single layer and converges 10× faster in LRA benchmark.
 </p>
+<p align="center">
+<img src="https://github.com/NeuromorphicComputationResearchProgram/Hrrformer/assets/37298971/1e467c00-823c-48ff-b767-19f08095bfff" width="1000">
+</p>
 
 ## Requirements
 ![requirements](https://img.shields.io/badge/Python-3.9.12-3480eb.svg?longCache=true&style=flat&logo=python)

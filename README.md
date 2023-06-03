@@ -4,7 +4,7 @@
 Hrrformer is a neuro-symbolic self-attention model with linear 𝒪(T) time and space complexity. 23× faster and consumes 24× less memory than Transformer. SOTA performance for even over sequence length T≥100,000. Able to learn with a single layer and converges 10× faster in LRA benchmark.
 </p>
 <p align="center">
-<img src="https://github.com/NeuromorphicComputationResearchProgram/Hrrformer/assets/37298971/1e467c00-823c-48ff-b767-19f08095bfff" width="1000">
+<img src="https://github.com/MahmudulAlam/Unified-Gesture-and-Fingertip-Detection/assets/37298971/ef076eaa-bace-49e6-902f-31a9518f80d7" width="1000">
 </p>
 
 ## Requirements
@@ -14,7 +14,7 @@ Hrrformer is a neuro-symbolic self-attention model with linear 𝒪(T) time and 
 The code is written in <a href=https://github.com/google/jax>jax</a> which is a deep learning framework developed by Google. Jax leverages just-in-time (JIT) compilation and hardware acceleration to optimize the execution of numerical operations. JIT compilation is a technique that compiles code at runtime, just before it is executed which allows the compiler to optimize the code. Moreover, the numerical operations are also optimized using Accelerated Linear Algebra (XLA) compiler. Along with jax flax and optax are also used which are higher-level libraries written on top of jax. 
 </p>
 
-```
+```properties
 pip install --upgrade https://storage.googleapis.com/jax-releases/cuda11/jaxlib-0.3.15+cuda11.cudnn82-cp39-none-manylinux2014_x86_64.whl
 pip install flax==0.6.0
 pip install optax==0.1.2
@@ -22,7 +22,7 @@ pip install optax==0.1.2
 
 Jax is great at optimization and making use of hardware acceleration but it does not have a built-in dataloader for which we have to rely on Tensorflow and PyTorch data loaders. Install the CPU version of both of them. 
 
-```
+```properties
 pip install tensorflow-cpu==2.8.0
 pip install tensorflow-datasets==4.5.2
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
@@ -30,7 +30,7 @@ pip install torch torchvision torchaudio --extra-index-url https://download.pyto
 
 Finally, the library that implements the vector symbolic architecture called <a href=https://github.com/MahmudulAlam/Holographic-Reduced-Representations>Holographic Reduced Representations (HRR)</a> which is the key concept used to develop Hrrformer. 
 
-```
+```properties
 pip install hrr --upgrade
 ```
 
@@ -39,7 +39,7 @@ pip install hrr --upgrade
 Experiments are performed on <a href=https://github.com/google-research/long-range-arena>Long Range Arena (LRA)</a> and EMBER malware classification benchmarks. To get the LRA benchmark first download the following file and extract it to the working directory. Image and Text datasets come with the TensorFlow Datasets library. These datasets will be automatically downloaded while running the code. 
 </p>
 
-```
+```properties
 wget https://storage.googleapis.com/long-range-arena/lra_release.gz
 tar xvf lra_release.gz
 ``` 
@@ -84,7 +84,7 @@ The following figure compares all the self-attention models in terms of LRA scor
 </p>
 
 <p align="center">
-<img src="https://github.com/NeuromorphicComputationResearchProgram/Hrrformer/assets/37298971/da1cd8a2-68da-4782-b94e-879c9ab27a67" width="800">
+<img src="https://github.com/MahmudulAlam/Unified-Gesture-and-Fingertip-Detection/assets/37298971/dc2a24e0-1f9b-430d-8dfd-7692723889d8" width="800">
 </p>
 
 ### Learning 2D Structure from 1D
@@ -93,7 +93,7 @@ The ability to learn with a single layer aids in both throughput and memory use.
 </p>
 
 <p align="center">
-<img src="https://github.com/NeuromorphicComputationResearchProgram/Hrrformer/assets/37298971/675faccb-b655-4824-94c6-f02d163d9a9b" width="800">
+<img src="https://github.com/MahmudulAlam/Unified-Gesture-and-Fingertip-Detection/assets/37298971/4872de28-8c42-4180-944a-6a2bb9a3a892" width="800">
 </p>
 
 ### EMBER
@@ -102,5 +102,5 @@ The following Figure shows the classification accuracy and the execution time fo
 </p>
 
 <p align="center">
-<img src="https://github.com/NeuromorphicComputationResearchProgram/Hrrformer/assets/37298971/0cca3626-e85a-4a50-a224-5c580d11634e" width="800">
+<img src="https://github.com/MahmudulAlam/Unified-Gesture-and-Fingertip-Detection/assets/37298971/182d1a62-44ab-4926-83c3-859676d38d9f" width="950">
 </p>

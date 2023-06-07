@@ -106,9 +106,10 @@ The following Figure shows the classification accuracy and the execution time fo
 </p>
 
 ### Citations
+[![Paper](https://img.shields.io/badge/ICML-2023-1495f7.svg?longCache=true&style=flat)](https://icml.cc/Conferences/2023)
 [![Paper](https://img.shields.io/badge/paper-ArXiv-ff0a0a.svg?longCache=true&style=flat)](https://arxiv.org/abs/2305.19534)
 
-To get more information about the proposed method and experiments, please go through the [paper](https://arxiv.org/abs/2305.19534). If you use this work or find this work useful, cite the paper as:
+To get more information about the proposed method and experiments, please go through the [paper](https://arxiv.org/abs/2305.19534). If you use this work or find this useful, cite the paper as:
 
 ```bibtex
 @article{alam2023recasting,

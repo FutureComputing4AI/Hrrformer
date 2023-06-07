@@ -104,3 +104,17 @@ The following Figure shows the classification accuracy and the execution time fo
 <p align="center">
 <img src="https://github.com/MahmudulAlam/Unified-Gesture-and-Fingertip-Detection/assets/37298971/182d1a62-44ab-4926-83c3-859676d38d9f" width="950">
 </p>
+
+### Citations
+[![Paper](https://img.shields.io/badge/paper-ArXiv-ff0a0a.svg?longCache=true&style=flat)](https://arxiv.org/abs/2305.19534)
+
+To get more information about the proposed method and experiments, please go through the [paper](https://arxiv.org/abs/2305.19534). If you use this work or find this work useful, cite the paper as:
+
+```bibtex
+@article{alam2023recasting,
+  title={Recasting Self-Attention with Holographic Reduced Representations},
+  author={Alam, Mohammad Mahmudul and Raff, Edward and Biderman, Stella and Oates, Tim and Holt, James},
+  journal={arXiv preprint arXiv:2305.19534},
+  year={2023}
+}
+```
